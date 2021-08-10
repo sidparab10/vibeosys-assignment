@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  font-family: sans-serif;
+  max-width: 1000px;
+}
+
+html {
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.main {
+  .banner-body {
+    background: rgb(42, 6, 148);
+    background: linear-gradient(90deg, rgba(42, 6, 148, 1) 5%, rgba(4, 97, 241, 1) 96%);
+  }
+
+  .analyze-section {
+      background-color: #eef1f6;
+  }
+
+  .how-it-works-section {
+    padding-top: 5rem;
+  }
+
+  .footer-section {
+    padding: 0;
+  }
+
+  &>* {
+    padding: 1.5rem 4rem;
+  }
+}

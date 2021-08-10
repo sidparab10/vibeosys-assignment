@@ -1,0 +1,25 @@
+<div class="footer-container">
+  <div class="footer-sign-up">
+    <div class="footer-sign-up-content">
+      <div class="footer-icon"></div>
+      <div class="footer-content">
+        <div class="content-head">Never Optimize An Image Again</div>
+        <div class="content-sub-head">Image Optimization made simple, only one line of code to integrate.</div>
+      </div>
+    </div>
+    <div class="footer-sign-up-btn-box">
+      <button>Sign Up Free</button>
+    </div>
+  </div>
+  <div class="footer-base">
+    <div class="left-section">
+      <span class="icon"></span>
+      © 2018 Pilo, Inc. - All rights reserved
+    </div>
+    <div class="right-section">
+      <button *ngFor="let btn of footerBtns">
+        {{btn | uppercase}}
+      </button>
+    </div>
+  </div>
+</div>

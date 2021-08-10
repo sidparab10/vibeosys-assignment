@@ -1,0 +1,21 @@
+<div class="banner-container">
+    <div class="header-container">
+        <div class="logo"></div>
+        <div class="nav-bar-container">
+            <button class="nav-btn" [ngClass]="{'border-input': btn.border}" *ngFor="let btn of navBtns">
+                {{btn.label | uppercase }}
+            </button>
+        </div>
+    </div>
+    <div class="banner-content">
+        <h2 class="banner-content-header">
+            Create The Fastest Mobile Experience For Your Website Images
+        </h2>
+        <div class="banner-content-text">
+            We help your website load faster by optimizing your images in real time and delive them to your visitors at maximum speed.
+            <br>
+            Image optimization results in, better image quality, faster load times and more conversions.
+        </div>
+        <button class="try-pilo-btn">Try Pilo Free</button>
+    </div>
+</div>

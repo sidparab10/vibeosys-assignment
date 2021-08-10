@@ -1,0 +1,59 @@
+.banner-container {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    .logo {
+      background-image: url(./../../../assets/images/logo.png);
+      background-size: contain;
+      height: 50px;
+      width: 100px;
+      background-repeat: no-repeat;
+    }
+
+    .nav-bar-container {
+      display: flex;
+      gap: 0.25rem;
+
+      .nav-btn {
+        background: transparent;
+        color: #fff;
+        border: none;
+        padding: 0.3rem 1rem;
+
+        &.border-input {
+          border: 1px solid #fff;
+          border-radius: 1rem;
+        }
+      }
+    }
+
+    .nav-bar-container {}
+  }
+
+  .banner-content {
+    color: #fff;
+    max-width: 50%;
+
+    .banner-content-header,
+    .banner-content-text {
+      margin-bottom: 2rem;
+    }
+
+    .banner-content-text {
+        word-spacing: 0.15rem;
+    }
+
+    .try-pilo-btn {
+      background-color: #006cff;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      padding: 0.5rem 3rem;
+      font-size: 18px;
+      margin-bottom: 5rem;
+    }
+  }
+}
